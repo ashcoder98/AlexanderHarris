@@ -8,10 +8,10 @@ function Portfolio() {
         <div className="Portfolio">
           <div className="projects">
 
-            <h1>My Work</h1>
+            <h1>Personal Projects</h1>
             
             <div className="projectlist">
-              <h2>General Assembly Projects</h2>
+              {/* <h2>General Assembly Projects</h2> */}
               <div className="card">
               <img src={process.env.PUBLIC_URL + '/giphy.png'} alt="Giphy Portal Landing Page" />
               <div className='card-content'>
